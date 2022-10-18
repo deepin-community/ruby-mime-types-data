@@ -1,0 +1,12 @@
+ruby-mime-types-data (3.2015.1120-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Mon, 28 Dec 2020 11:28:02 +0100
+
+ruby-mime-types-data (3.2015.1120-1) unstable; urgency=medium
+
+  * Initial release (Closes: #808577)
+
+ -- Balasankar C <balasankarc@autistici.org>  Mon, 30 Nov 2015 18:05:33 +0530

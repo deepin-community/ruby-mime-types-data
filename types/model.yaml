@@ -1,0 +1,242 @@
+---
+- !ruby/object:MIME::Type
+  content-type: model/example
+  encoding: base64
+  xrefs: !ruby/object:MIME::Types::Container
+    rfc:
+    - rfc4735
+    template:
+    - model/example
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/iges
+  friendly:
+    en: Initial Graphics Exchange Specification (IGES)
+  encoding: base64
+  extensions:
+  - igs
+  - iges
+  xrefs: !ruby/object:MIME::Types::Container
+    person:
+    - Curtis_Parks
+    template:
+    - model/iges
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/mesh
+  friendly:
+    en: Mesh Data Type
+  encoding: base64
+  extensions:
+  - msh
+  - mesh
+  - silo
+  xrefs: !ruby/object:MIME::Types::Container
+    rfc:
+    - rfc2077
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/vnd.collada+xml
+  friendly:
+    en: COLLADA
+  encoding: base64
+  extensions:
+  - dae
+  xrefs: !ruby/object:MIME::Types::Container
+    person:
+    - James_Riordon
+    template:
+    - model/vnd.collada+xml
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/vnd.dwf
+  friendly:
+    en: Autodesk Design Web Format (DWF)
+  encoding: base64
+  extensions:
+  - dwf
+  xrefs: !ruby/object:MIME::Types::Container
+    person:
+    - Jason_Pratt
+    template:
+    - model/vnd-dwf
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/vnd.flatland.3dml
+  encoding: base64
+  xrefs: !ruby/object:MIME::Types::Container
+    person:
+    - Michael_Powers
+    template:
+    - model/vnd.flatland.3dml
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/vnd.gdl
+  friendly:
+    en: Geometric Description Language (GDL)
+  encoding: base64
+  extensions:
+  - gdl
+  xrefs: !ruby/object:MIME::Types::Container
+    person:
+    - Attila_Babits
+    template:
+    - model/vnd.gdl
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/vnd.gs-gdl
+  encoding: base64
+  xrefs: !ruby/object:MIME::Types::Container
+    person:
+    - Attila_Babits
+    template:
+    - model/vnd.gs-gdl
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/vnd.gtw
+  friendly:
+    en: Gen-Trix Studio
+  encoding: base64
+  extensions:
+  - gtw
+  xrefs: !ruby/object:MIME::Types::Container
+    person:
+    - Yutaka_Ozaki
+    template:
+    - model/vnd.gtw
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/vnd.moml+xml
+  encoding: base64
+  xrefs: !ruby/object:MIME::Types::Container
+    person:
+    - Christopher_Brooks
+    template:
+    - model/vnd.moml+xml
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/vnd.mts
+  friendly:
+    en: Virtue MTS
+  encoding: base64
+  extensions:
+  - mts
+  xrefs: !ruby/object:MIME::Types::Container
+    person:
+    - Boris_Rabinovitch
+    template:
+    - model/vnd.mts
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/vnd.opengex
+  encoding: base64
+  xrefs: !ruby/object:MIME::Types::Container
+    person:
+    - Eric_Lengyel
+    template:
+    - model/vnd.opengex
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/vnd.parasolid.transmit.binary
+  encoding: base64
+  extensions:
+  - x_b
+  - xmt_bin
+  xrefs: !ruby/object:MIME::Types::Container
+    person:
+    - Parasolid
+    template:
+    - model/vnd.parasolid.transmit-binary
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/vnd.parasolid.transmit.text
+  encoding: quoted-printable
+  extensions:
+  - x_t
+  - xmt_txt
+  xrefs: !ruby/object:MIME::Types::Container
+    person:
+    - Parasolid
+    template:
+    - model/vnd.parasolid.transmit-text
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/vnd.valve.source.compiled-map
+  encoding: base64
+  xrefs: !ruby/object:MIME::Types::Container
+    person:
+    - Henrik_Andersson
+    template:
+    - model/vnd.valve.source.compiled-map
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/vnd.vtu
+  friendly:
+    en: Virtue VTU
+  encoding: base64
+  extensions:
+  - vtu
+  xrefs: !ruby/object:MIME::Types::Container
+    person:
+    - Boris_Rabinovitch
+    template:
+    - model/vnd.vtu
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/vrml
+  friendly:
+    en: Virtual Reality Modeling Language
+  encoding: base64
+  extensions:
+  - wrl
+  - vrml
+  xrefs: !ruby/object:MIME::Types::Container
+    rfc:
+    - rfc2077
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/x3d+binary
+  encoding: base64
+  extensions:
+  - x3db
+  - x3dbz
+  registered: false
+- !ruby/object:MIME::Type
+  content-type: model/x3d+fastinfoset
+  encoding: base64
+  xrefs: !ruby/object:MIME::Types::Container
+    person:
+    - Web3D_X3D
+    template:
+    - model/x3d+fastinfoset
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/x3d+vrml
+  encoding: base64
+  extensions:
+  - x3dv
+  - x3dvz
+  registered: false
+- !ruby/object:MIME::Type
+  content-type: model/x3d+xml
+  encoding: base64
+  extensions:
+  - x3d
+  - x3dz
+  xrefs: !ruby/object:MIME::Types::Container
+    person:
+    - Web3D
+    - Web3D_X3D
+    template:
+    - model/x3d+xml
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/x3d-vrml
+  encoding: base64
+  xrefs: !ruby/object:MIME::Types::Container
+    person:
+    - Web3D
+    - Web3D_X3D
+    template:
+    - model/x3d-vrml
+  registered: true
